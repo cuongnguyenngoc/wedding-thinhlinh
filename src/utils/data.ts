@@ -36,9 +36,9 @@ export const inviteData: InviteDataType = {
 
   venue: "Thôn Thạch Quyền, xã Cao Dương, tỉnh Phú Thọ",
   groomFamily: "Ông Mai Anh Tuấn <br /> Bà Vũ Thị Vân Anh",
-  groomAddress: "",
+  groomAddress: "Chú Rể: Mai Vũ Thịnh",
   brideFamily: "Ông Đặng Hữu Tuấn <br /> Bà Nguyễn Thị Liễu",
-  brideAddress: "Thôn Thạch Quyền, xã Cao Dương, tỉnh Phú Thọ",
+  brideAddress: "Cô Dâu: Đặng Diệu Linh",
 
   guestLine: "Quý Khách",
   mainPhoto: "/images/main.jpg",

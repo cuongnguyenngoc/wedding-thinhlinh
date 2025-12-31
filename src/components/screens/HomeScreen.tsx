@@ -271,17 +271,6 @@ export default function HomeScreen() {
 
           <motion.div className="mt-3 grid grid-cols-2 gap-6" variants={staggerContainer}>
             <motion.div className="bg-[#fff1f0] p-1 rounded-lg shadow-md flex flex-col items-center" variants={cardVariants}>
-              <h4 className="font-semibold text-[#b33] text-lg md:text-xl mb-4">Nhà Trai</h4>
-              <p
-                className={`text-[1.6rem] md:text-[1.7rem] text-[#c23636] font-medium mb-3 ${greatVibes.className}`}
-                dangerouslySetInnerHTML={{ __html: inviteData.groomFamily }}
-              />
-              <p className="text-small md:text-base text-[#c23636] opacity-80 leading-relaxed">
-                {inviteData.groomAddress}
-              </p>
-            </motion.div>
-
-            <motion.div className="bg-[#fff1f0] p-1 rounded-lg shadow-md flex flex-col items-center" variants={cardVariants}>
               <h4 className="font-semibold text-[#b33] text-lg md:text-xl mb-4">Nhà Gái</h4>
               <p
                 className={`text-[1.6rem] md:text-[1.7rem] text-[#c23636] font-medium mb-3 ${greatVibes.className}`}
@@ -289,6 +278,17 @@ export default function HomeScreen() {
               />
               <p className="text-small md:text-base text-[#c23636] opacity-80 leading-relaxed">
                 {inviteData.brideAddress}
+              </p>
+            </motion.div>
+
+            <motion.div className="bg-[#fff1f0] p-1 rounded-lg shadow-md flex flex-col items-center" variants={cardVariants}>
+              <h4 className="font-semibold text-[#b33] text-lg md:text-xl mb-4">Nhà Trai</h4>
+              <p
+                className={`text-[1.6rem] md:text-[1.7rem] text-[#c23636] font-medium mb-3 ${greatVibes.className}`}
+                dangerouslySetInnerHTML={{ __html: inviteData.groomFamily }}
+              />
+              <p className="text-small md:text-base text-[#c23636] opacity-80 leading-relaxed">
+                {inviteData.groomAddress}
               </p>
             </motion.div>
           </motion.div>
